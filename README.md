@@ -2,8 +2,8 @@
 
 Página web de **Clarisa Candia**, corredora de propiedades. Venta, arriendo y administración de arriendos en Santiago.
 
-**Página en línea:** https://garbanzo96.github.io/vivelhoy-propiedades/
-**Guía de marca (logo, colores, tipografías):** https://garbanzo96.github.io/vivelhoy-propiedades/marca.html
+**Página en línea:** https://vivelhoy.cl/
+**Guía de marca (logo, colores, tipografías):** https://vivelhoy.cl/marca.html
 
 Para verla en el computador sin internet, haz doble clic en `index.html` o en `Abrir pagina.html`. No hay que instalar nada. Lo único que necesita internet es el botón de WhatsApp.
 
@@ -37,7 +37,7 @@ Los datos que no tengas se pueden borrar: la ficha muestra solo lo que esté esc
 
 ## Publicar los cambios
 
-La página se publica con GitHub Pages desde la rama `main`. Cada cambio que se sube al repositorio aparece en línea en uno o dos minutos.
+La página se publica con GitHub Pages desde la rama `main`, con el dominio `vivelhoy.cl` (comprado en NIC Chile, DNS en Cloudflare con 4 registros A a GitHub y `www` como CNAME a `garbanzo96.github.io`, todos en «Solo DNS»). Cada cambio que se sube al repositorio aparece en línea en uno o dos minutos.
 
 - Desde el computador: `git add -A && git commit -m "Nueva propiedad en Macul" && git push`
 - Desde el navegador: en GitHub, botón **Add file → Upload files** para subir fotos, y el lápiz ✏️ para editar `js/propiedades.js`.
@@ -45,9 +45,9 @@ La página se publica con GitHub Pages desde la rama `main`. Cada cambio que se 
 ## Enlaces útiles para compartir
 
 - **Fotos de una propiedad específica:** agrega `#fotos-` y el `id` de la propiedad al final del enlace. Ejemplo:
-  https://garbanzo96.github.io/vivelhoy-propiedades/#fotos-san-bernardo-villa-pucara
+  https://vivelhoy.cl/#fotos-san-bernardo-villa-pucara
 - **Saber de dónde llegan los mensajes:** agrega `?origen=` al enlace que pongas en cada red. Por ejemplo, en Instagram usa
-  `https://garbanzo96.github.io/vivelhoy-propiedades/?origen=instagram`. Los mensajes de WhatsApp que salgan de esa visita terminan con «(Llegué desde instagram)». No usa cookies ni seguimiento.
+  `https://vivelhoy.cl/?origen=instagram`. Los mensajes de WhatsApp que salgan de esa visita terminan con «(Llegué desde instagram)». No usa cookies ni seguimiento.
 
 ## Cambiar teléfono, correo u horario
 
@@ -73,4 +73,3 @@ La página se publica con GitHub Pages desde la rama `main`. Cada cambio que se 
 1. **Perfil de Google (Google Business Profile)** con el enlace de la página, el teléfono, el horario y las comunas como área de servicio. Es lo que más ayuda a que la encuentren cuando alguien busca «corredora de propiedades La Florida».
 2. **Foto de perfil de WhatsApp Business e Instagram** con `assets/logo/vivelhoy-perfil-redes.png`.
 3. **Testimonios reales**: cuando un cliente acepte, se pueden agregar a la página. No conviene inventarlos ni redactarlos por ellos.
-4. **Dominio propio** (por ejemplo `vivelhoy.cl`, se compra en nic.cl) y conectarlo a GitHub Pages desde *Settings → Pages → Custom domain*.
