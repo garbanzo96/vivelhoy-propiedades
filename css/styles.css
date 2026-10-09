@@ -62,6 +62,7 @@
 
   /* Logo */
   --logo-sun: #E8BE7E;
+  --logo-ray: #E3B26B;
   --logo-tree: #86A57F;
   --logo-wood: #6B4A33;
   --logo-wall: var(--cream);
@@ -220,7 +221,7 @@ p { text-wrap: pretty; }
 .header-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 
 .brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; color: inherit; }
-.brand-mark { width: 54px; height: 38px; }
+.brand-mark { width: 62px; height: 38px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
 .brand-name {
   font-family: var(--font-display); font-variation-settings: "SOFT" 100, "WONK" 0, "opsz" 72;
@@ -285,7 +286,12 @@ p { text-wrap: pretty; }
 .path:hover .path-arrow { transform: translateX(3px); opacity: 1; }
 
 .hero-area { margin-top: 1.5rem; display: flex; align-items: center; gap: .55em; color: var(--ink-3); font-size: var(--fs-sm); font-weight: 500; }
+.hero-area { align-items: flex-start; line-height: 1.55; }
+.hero-area .i { margin-top: .12em; }
 .hero-area .i { color: var(--caramel-500); }
+.area-link { color: var(--green-800); font-weight: 600; text-decoration: underline; text-decoration-color: var(--green-200); text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
+.area-link:hover { text-decoration-color: var(--green-700); }
+.area-link { white-space: nowrap; }
 
 .hero-visual { position: relative; padding-bottom: 28px; }
 .portrait {
@@ -824,7 +830,7 @@ body.is-locked { overflow: hidden; }
 }
 
 @media (max-width: 420px) {
-  .brand-mark { width: 46px; height: 32px; }
+  .brand-mark { width: 52px; height: 32px; }
   .brand-name { font-size: 1.32rem; }
   .brand-sub { font-size: .5625rem; letter-spacing: .26em; }
   .hero h1 { font-size: 2.35rem; }
