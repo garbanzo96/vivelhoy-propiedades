@@ -18,13 +18,13 @@
 
 window.PROPIEDADES = [
   {
-    id: "san-bernardo-villa-pucara",
+    id: "san-bernardo-villa-nova-vida",
     operacion: "arriendo",
     estado: "disponible",
     tipo: "Casa",
-    titulo: "Casa en Villa Pucará",
+    titulo: "Casa en Villa Nova Vida",
     comuna: "San Bernardo",
-    sector: "Villa Pucará",
+    sector: "Villa Nova Vida",
     precio: "$600.000",
     periodo: "al mes",
     datos: {
@@ -35,16 +35,16 @@ window.PROPIEDADES = [
       m2Construidos: 83,
       m2Totales: 91
     },
-    caracteristicas: ["Cocina independiente", "Logia", "Antejardín", "Patio"],
-    descripcion: "Casa de tres pisos con living y comedor conectados, cocina independiente con logia, tres dormitorios, dos baños completos y uno de visita. Tiene antejardín y patio.",
-    carpeta: "assets/img/propiedades/san-bernardo-villa-pucara/",
+    caracteristicas: ["Cocina independiente", "Logia", "Sala de estar", "Antejardín", "Patio trasero y lateral", "Estacionamiento para 1 vehículo", "Pasaje cerrado con portón eléctrico"],
+    descripcion: "Hermosa casa de tres pisos, muy bien mantenida. Living y comedor conectados, cocina independiente, logia, patio trasero y lateral más antejardín, y estacionamiento para un vehículo. Tres dormitorios más sala de estar, dos baños completos y uno de visita. Sector residencial tranquilo, en pasaje cerrado con portón eléctrico.",
+    carpeta: "assets/img/propiedades/san-bernardo-villa-nova-vida/",
     // Fotos del mosaico principal (número de la foto en la lista de abajo, partiendo en 0).
     // La segunda conviene que sea vertical, como la fachada.
     mosaico: [0, 1, 3, 5],
     fotos: [
       { archivo: "01-living-comedor", texto: "Living y comedor conectados" },
       { archivo: "02-fachada", texto: "Fachada de la casa" },
-      { archivo: "03-antejardin", texto: "Antejardín y acceso" },
+      { archivo: "03-antejardin", texto: "Antejardín y estacionamiento" },
       { archivo: "04-comedor", texto: "Comedor" },
       { archivo: "05-sala-de-estar", texto: "Sala de estar junto a la escalera" },
       { archivo: "06-cocina", texto: "Cocina independiente" },
@@ -57,7 +57,7 @@ window.PROPIEDADES = [
       { archivo: "13-dormitorio-2", texto: "Dormitorio" },
       { archivo: "14-bano", texto: "Baño completo" },
       { archivo: "15-bano-visita", texto: "Baño de visita" },
-      { archivo: "16-patio", texto: "Patio" }
+      { archivo: "16-patio", texto: "Patio lateral" }
     ]
   },
   {

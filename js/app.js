@@ -65,7 +65,7 @@
 
     var picks = (Array.isArray(p.mosaico) && p.mosaico.length ? p.mosaico : [0, 1, 2, 3]).filter(function (i) { return i < n; }).slice(0, 4);
     var tiles = picks.map(function (i, k) {
-      var extra = k === picks.length - 1 ? '<span class="more">' + icon('images') + '<span class="more-long">Ver las&nbsp;</span>' + n + ' fotos</span>' : '';
+      var extra = k === picks.length - 1 ? '<span class="more">' + icon('images') + '<span class="more-long">Ver las</span>' + n + ' fotos</span>' : '';
       return '<button type="button" class="tile tile-' + (k + 1) + '" data-gallery="' + idx + '" data-start="' + i + '" aria-label="Ver foto: ' + esc(p.fotos[i].texto) + '">' +
         '<img src="' + photo(p, i, k === 0 ? '' : 'sm') + '" alt="" ' + (k === 0 ? '' : 'loading="lazy" ') + 'decoding="async">' + extra + '</button>';
     }).join('');

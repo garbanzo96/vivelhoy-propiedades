@@ -45,7 +45,7 @@ La página se publica con GitHub Pages desde la rama `main`, con el dominio `viv
 ## Enlaces útiles para compartir
 
 - **Fotos de una propiedad específica:** agrega `#fotos-` y el `id` de la propiedad al final del enlace. Ejemplo:
-  https://vivelhoy.cl/#fotos-san-bernardo-villa-pucara
+  https://vivelhoy.cl/#fotos-san-bernardo-villa-nova-vida
 - **Saber de dónde llegan los mensajes:** agrega `?origen=` al enlace que pongas en cada red. Por ejemplo, en Instagram usa
   `https://vivelhoy.cl/?origen=instagram`. Los mensajes de WhatsApp que salgan de esa visita terminan con «(Llegué desde instagram)». No usa cookies ni seguimiento.
 
